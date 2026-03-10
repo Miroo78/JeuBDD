@@ -1,6 +1,14 @@
-# 09/03 version squeltte 
+#le 09/03 version squeltte fait sans ia rien du tt 
+# fonction dec en plusieurs fonctions pour une meilleure orga du code et une meilleure lisibilité
 
-# fonction decouper en plusieurs fonctions pour une meilleure organisation du code et une meilleure lisibilité
+def bienvenue(): # Afficher un message de bienvenue et demander à l'utilisateur de lancer le jeu avc A sinon le jeu se ferme
+    print("Bienvenue dans le jeu de combat entre joueurs et monnstres ! cliquez sur A pour Lancer ")
+    if input().lower() == 'a':
+        print("Lancement du jeu...")
+    else :
+        print("Choix invalid, le jeu va se fermeer cheh .")
+        exit()
+
 
 def afficher_menu(): # Afficher le menu principl 
     print("1. Démarrer le jeu")
@@ -35,6 +43,9 @@ def lancer_choix_choisi(choix):
 
 
 def main(): 
+   # Afficher un message de bienvenue
+    bienvenue() 
+
     # Afficher le menu de choix
     afficher_menu()
 
