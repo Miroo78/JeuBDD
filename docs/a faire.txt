@@ -2,3 +2,18 @@ A FAIRE ICI :
  
 - finir le tp avec la tech de decomposition 
 - vue et vision exterieur avant de commencer un projet 
+
+ancian main 
+
+# def main(): # Afficher le menu et gérer les choix de l'utilisateur
+    # afficher_menu()
+    # choix = input("Ton choix : ")
+
+   # if choix == "1":
+       # demarrer_jeu()
+   # elif choix == "2":
+       # afficher_classement()
+    #elif choix == "3":
+        #print("Au revoir")
+    #else:
+        #print("Choix invalide")
